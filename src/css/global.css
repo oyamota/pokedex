@@ -1,0 +1,20 @@
+/* ctrl + ; comenta */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DADFE8;
+    /* background-color: aqua; para fazer teste e ver o que é o main */
+}
+
+.pokedex {
+    
+    display: flex;
+    gap: 30px;           /* gap = espaçamento interno */
+    padding: 30px 0;     /* espaçamento entre a borda e o conteudo */
+}
